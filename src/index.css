@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  color: #3D4641;
+  font-family: 'Circular Std Book';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Circular Std Book';
+  src: url("./assets/fonts/CircularStd-Book.otf") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular Std Black';
+  src: url("./assets/fonts/CircularStd-Black.otf") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

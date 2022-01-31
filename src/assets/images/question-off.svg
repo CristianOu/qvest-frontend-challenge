@@ -1,0 +1,20 @@
+<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.5 65C50.4493 65 65 50.4493 65 32.5C65 14.5507 50.4493 0 32.5 0C14.5507 0 0 14.5507 0 32.5C0 50.4493 14.5507 65 32.5 65Z" fill="#F2EEE2"/>
+<mask id="mask0_122_303" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="65" height="65">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.5 65C50.4493 65 65 50.4493 65 32.5C65 14.5507 50.4493 0 32.5 0C14.5507 0 0 14.5507 0 32.5C0 50.4493 14.5507 65 32.5 65Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_122_303)">
+<g style="mix-blend-mode:luminosity" opacity="0.55">
+<rect x="19" y="22" width="49" height="51" rx="12" fill="white"/>
+<rect x="19" y="31" width="72" height="39" fill="#3D4641"/>
+<rect x="48" y="31" width="43" height="39" fill="#F4BF6C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M116.5 38.5V42.5H55.5V38.5L116.5 38.5Z" fill="#3D4641"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M116.5 51.5V55.5H55.5V51.5L116.5 51.5Z" fill="#F7D298"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M116.5 45.5V49.5H55.5V45.5L116.5 45.5Z" fill="white"/>
+</g>
+<g style="mix-blend-mode:luminosity" opacity="0.55">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M34.7709 50.9091H32.5683C32.5463 50.6332 32.5242 50.3997 32.5242 50.1026C32.5242 48.8291 33.0308 47.7892 34.3084 46.8978L35.3216 46.1974C36.0485 45.688 36.3568 45.0725 36.3568 44.3509C36.3568 43.2473 35.5859 42.2073 33.978 42.2073C32.348 42.2073 31.489 43.417 31.489 44.6268C31.489 44.9452 31.533 45.3484 31.6211 45.5819L29.1322 45.4121C29.0441 45.115 29 44.7754 29 44.4358C29 42.3134 30.652 40 33.978 40C37.2379 40 39 42.0799 39 44.2448C39 45.9215 38.0749 47.11 36.7974 47.9802L35.8502 48.6169C35.1233 49.1051 34.7489 49.8054 34.7489 50.6332C34.7489 50.6756 34.7489 50.7817 34.7709 50.9091Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32 54.5102C32 53.6939 32.6575 53 33.5 53C34.3219 53 35 53.6939 35 54.5102C35 55.3265 34.3219 56 33.5 56C32.6575 56 32 55.3265 32 54.5102Z" fill="white"/>
+</g>
+</g>
+</svg>

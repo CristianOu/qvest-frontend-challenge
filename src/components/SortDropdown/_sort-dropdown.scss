@@ -1,0 +1,49 @@
+.filter-tasks {
+  display: flex;
+  min-width: 210px;
+  margin-right: 30px;
+
+  .showing-text {
+    text-align: end;
+    width: 50%;
+    color: #828783;
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem); 
+  }
+
+  .options-container {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    color: #3D4641;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: clamp(1rem, 1.3vw, 1.3rem); 
+
+    .selected-option {
+      display: inline-block;
+      transition: ease .1s;
+    }
+
+    .list-of-options {
+      position: absolute;
+      background: #E5E5E5;
+      box-shadow: 10px 10px 24px rgb(61 70 64 / 15%);
+      padding: 10px 20px;
+      border: 1px solid #cccccc;
+      border-radius: 6px;
+
+      .option {
+        margin: 7px 0;
+
+        &:hover {
+          color: #f4c06e;
+          transition: ease .1s;
+          
+        }
+      }
+    }
+  }
+}
+
+
+

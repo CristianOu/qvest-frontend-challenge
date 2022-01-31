@@ -1,0 +1,25 @@
+[
+  {
+    "id": "d49d0a61-b550-45bf-b60e-f3f27d4e2ead",
+    "state": "ANSWER",
+    "questionContent": "How will GSS affect employee engagement in the short term and long term in your opinion and why?",
+    "questionSentAt": "2021-05-01 13:11:41.00000"
+  },
+  {
+    "id": "82e62e4c-2c0b-4ec3-a4c8-57f1e22fc815",
+    "state": "ANSWERED",
+    "questionContent": "When I think about a process across units I am thinking that each and every person with a stake in the process cannot handle it alone, instead those affected by the process now work together in one team with the same goals instead of sitting in different departments. Therefore there will still be many touchpoints for each process but all of them belong to the same team. Is that right?",
+    "questionSentAt": "2021-05-02 10:02:19.00000",
+    "answerContent": "GSS will not be successful simply because we have rearranged things. We have to be aware of culture in order to be truly successful with this change.",
+    "answerSentAt": "2021-05-01 10:12:32.00000"
+  },
+  {
+    "id": "d49d0a61-b550-45bf-b60e-f3f27d4e2ea",
+    "state": "ASK"
+  },
+  {
+    "id": "6044bc3f-85ad-4b19-8d4d-b77d32ef9b2b",
+    "state": "LOCKED",
+    "unlockedAt": "2022-01-31 16:00:00.00000"
+  }
+]

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 2vw;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  .page-title {
+    font-family: 'Circular Std Black';
+    font-size: clamp(0.75rem, 3.5vw, 1.1rem);
+  }
+
+  .opens-in {
+    font-size: clamp(0.75rem, 3.5vw, 0.9rem);
+  }
+}
