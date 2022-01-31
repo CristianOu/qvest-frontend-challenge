@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './_sort-dropdown.scss';
 import Vector from '../../assets/images/vector-down.svg';
 

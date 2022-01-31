@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './_task.scss';
 import DateFormat from '../DateFormat/DateFormat';
 import AnswerOn from '../../assets/images/answer-on.svg';
