@@ -21,7 +21,7 @@ function SortDropdown({tasks, filterTasks}) {
   
   useEffect(() => {
     taskStates.forEach(taskState => {
-      taskState.nr = 0
+      taskState.nr = 0  
     })
     let newTaskStates = taskStates;
     tasks.forEach(({state}) => {
@@ -35,7 +35,7 @@ function SortDropdown({tasks, filterTasks}) {
       }
     });
     setTaskStates(newTaskStates);
-  }, [tasks, taskStates]) 
+  }, [tasks, taskStates])
 
 
   return (
@@ -74,8 +74,6 @@ function SortDropdown({tasks, filterTasks}) {
           }
         </div>
       </div>
-      
-      
     </div>
     
   );
