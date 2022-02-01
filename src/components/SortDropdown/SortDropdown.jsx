@@ -31,7 +31,7 @@ function SortDropdown({tasks, filterTasks}) {
       } else if (state === "ASK" || state === "ANSWER") {
         newTaskStates[2].nr++;
       } else {
-        newTaskStates[3].nr++
+        newTaskStates[3].nr++;
       }
     });
     setTaskStates(newTaskStates);

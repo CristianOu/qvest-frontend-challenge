@@ -32,7 +32,7 @@ function ActivityPage() {
    return (
       <Layout tasks={tasks}>
          <div className='home-page-container'>
-            {/* The username should be a variable coming from the backend */}
+            {/* The username should be coming from the backend */}
             <div className='username'>Hi Michael Hansen </div>
             <div className='task-list-header'>
                <div className='tasks-total'>Tasks ({tasks.length}) </div>

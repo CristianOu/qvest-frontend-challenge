@@ -8,7 +8,6 @@ import QuestionOff from '../../assets/images/question-off.svg';
 import Lock from '../../assets/images/lock.svg';
 import arrowRight from '../../assets/images/arrow-right.svg';
 
-
 function Task({
    taskState, 
    unlockedAt, 
@@ -90,11 +89,11 @@ function Task({
                <div className='content'>Ask a question</div> :
                taskState === status.ANSWER || taskState === status.ASKED ? 
                   <div className='content'>{taskVariants[taskState].questionContent}</div> :
-                  // only ANSWERED case remains
+                  // only ANSWERED use case remains
                   <div className='content'>
                      <div>(Q): &nbsp;
                         {
-                           //limit the content to only 10 words so that both the question and the answer have space on the card   
+                           //limit the content to only 15 words so that both the question and the answer have space on the card   
                               taskVariants[taskState].questionContent.split(' ').slice(0, 15).join(' ')
                         }...
                      </div>
@@ -102,7 +101,6 @@ function Task({
                      <div>(A): { taskVariants[taskState].answerContent.split(' ').slice(0, 15).join(' ')}...</div>
                   </div>
          }
-         
          {
             taskState === status.LOCKED ?
                <div className='task-footer1'> 
@@ -120,7 +118,6 @@ function Task({
                   </div> :
                   <div className='task-footer2'>
                      <DateFormat 
-                        // messageSentAt={taskVariants[taskState].questionSentAt}
                         messageSentAt={
                            taskState === status.ANSWERED ? 
                               taskVariants[taskState].answerSentAt : 
